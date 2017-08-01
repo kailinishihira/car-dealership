@@ -1,0 +1,21 @@
+@{
+  Layout = "_Layout";
+}
+
+<div class="container">
+  <h1>Car Dealership</h1>
+  <p><a href="">Add another car</a></p>
+  <form action="/CreateNew" method="post">
+    <label for="make-model">Make/Model</label>
+    <input type="text" class="form-control" id="make-model" name="make-model">
+    <label for="color">Color</label>
+    <input type="text" class="form-control" id="color" name="color">
+    <label for="year">Year</label>
+    <input type="text" class="form-control" id="year" name="year">
+    <label for="mileage">Mileage</label>
+    <input type="text" class="form-control" id="mileage" name="mileage">
+    @* <label for="price">Price</label>
+    <input type="text" class="form-control" id="price" name="price"> *@
+    <button type="submit" name="button">Create new </button>
+  </form>
+</div>
